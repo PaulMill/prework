@@ -1,6 +1,7 @@
 body {
-  background-image:  url("3695.jpg");
+  background-image:  url(../img/3695.jpg);
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 .header {
   border-top: 0px solid #648880;
@@ -15,6 +16,8 @@ body {
   background-color: #ffa0bb;
   border-left: 0px solid #648880;
   border-right: 0px solid #648880;
+  opacity: 0.85;
+
 }
 .mainSection,
 .fullSection {
