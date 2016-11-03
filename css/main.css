@@ -1,7 +1,7 @@
 body {
-  background-color: #efeaef;
+  background-image:  url("3695.jpg");
+  background-repeat: repeat;
 }
-
 .header {
   border-top: 0px solid #648880;
   border-top-left-radius: 45px;
@@ -92,6 +92,10 @@ a:active {
 }
 .paragraph {
     text-align: center;
+    margin: 70px 0;
+}
+.correctedH3 {
+  padding: 50px 0 10px 0;
 }
 p {
   text-align: center;
@@ -100,4 +104,24 @@ p {
   height: auto;
   width: auto;
   max-height: 250px;
+}
+.section {
+  border: 4px solid #592634;
+  border-radius: 75px;
+  background-color: #F8D9E0;
+  margin: 55px 65px;
+}
+.stitched {
+   padding: 20px;
+   margin: 0;
+   background: #FDA1BB;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #FDA1BB, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
 }
